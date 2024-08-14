@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Willkommen auf meiner Website</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optionale CSS-Datei -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hallo, ich bin BigZ23!</h1>
-    <p>Willkommen auf meiner persönlichen Website.</p>
-    <p>Hier zeige ich meine Fähigkeiten in der Datenvisualisierung und Wirtschaftsanalyse.</p>
+    <div class="header">
+        <img src="dein_bild.jpg" alt="Timo Schliebe" class="profile-img">
+        <h1>Timo Schliebe</h1>
+    </div>
+    
+    <div class="buttons">
+        <button onclick="window.location.href='#about'">Über mich</button>
+        <button onclick="window.location.href='#skills'">Fähigkeiten</button>
+        <button onclick="window.location.href='#projects'">Projekte</button>
+        <button onclick="window.location.href='#contact'">Kontakt</button>
+    </div>
+
+    <section id="about">
+        <h2>Über mich</h2>
+        <p>Hier kannst du mehr über mich und meinen Lebenslauf erfahren.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Fähigkeiten</h2>
+        <p>Liste deiner wichtigsten Fähigkeiten.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projekte</h2>
+        <p>Zeige hier deine wichtigsten Projekte.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Hier kannst du Kontaktinformationen anzeigen.</p>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
