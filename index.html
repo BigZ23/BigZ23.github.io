@@ -8,12 +8,12 @@
 </head>
 <body>
     <div class="header">
-        <img src="dein_bild.jpg" alt="Timo Schliebe" class="profile-img">
+        <img src="https://github.com/BigZ23/BigZ23.github.io/raw/main/Bewerbung_Schliebe-1.jpg" alt="Timo Schliebe" class="profile-img">
         <h1>Timo Schliebe</h1>
     </div>
     
     <div class="buttons">
-        <button onclick="window.location.href='#about'">Über mich</button>
+        <button id="aboutBtn">Über mich</button>
         <button onclick="window.location.href='#skills'">Fähigkeiten</button>
         <button onclick="window.location.href='#projects'">Projekte</button>
         <button onclick="window.location.href='#contact'">Kontakt</button>
@@ -21,39 +21,38 @@
 
     <section id="about">
         <h2>Über mich</h2>
-        <p>Hier kannst du mehr über mich und meinen Lebenslauf erfahren.</p>
+        <p>Ich bin Timo Schliebe, Absolvent des Masterstudiums International Economic Policy. Meine Schwerpunkte liegen in der Wirtschaftsanalyse und Datenvisualisierung. Ich suche eine Position als Wirtschaftsanalyst, um meine analytischen Fähigkeiten und mein strategisches Denken in einem dynamischen Umfeld einzubringen.</p>
     </section>
     
     <section id="skills">
         <h2>Fähigkeiten</h2>
-        <p>Liste deiner wichtigsten Fähigkeiten.</p>
+        <ul>
+            <li>Wirtschaftsanalyse und Ökonometrie</li>
+            <li>Data Science mit Python</li>
+            <li>Datenvisualisierung und grafische Aufbereitung</li>
+            <li>Interkulturelle Kompetenz und Teamarbeit</li>
+        </ul>
     </section>
 
     <section id="projects">
         <h2>Projekte</h2>
-        <p>Zeige hier deine wichtigsten Projekte.</p>
+        <p>Hier kannst du einige meiner Projekte sehen, bei denen ich meine Kenntnisse in der Wirtschaftsanalyse und Datenvisualisierung angewendet habe.</p>
     </section>
 
     <section id="contact">
         <h2>Kontakt</h2>
-        <p>Hier kannst du Kontaktinformationen anzeigen.</p>
+        <p>Du kannst mich unter <a href="mailto:timo.schliebe@gmail.com">timo.schliebe@gmail.com</a> oder telefonisch unter 0157 886 300 21 erreichen.</p>
     </section>
 
+    <!-- Modales Fenster für "Über mich" -->
+    <div id="aboutModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Über mich</h2>
+        <p>Hier kannst du mehr über mich und meinen Lebenslauf erfahren. Ich habe umfangreiche Erfahrungen in der Wirtschaftsanalyse und freue mich darauf, meine Kenntnisse in einem neuen beruflichen Umfeld einzubringen.</p>
+      </div>
+    </div>
+
     <script src="script.js"></script>
-    <!-- Vor dem schließenden </body>-Tag einfügen -->
-<div id="aboutModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h2>Über mich</h2>
-    <p>Hier kannst du mehr über mich und meinen Lebenslauf erfahren.</p>
-  </div>
-</div>
-
-<script src="script.js"></script>
-</body>
-</html>
-
-<button id="aboutBtn">Über mich</button>
-
 </body>
 </html>
